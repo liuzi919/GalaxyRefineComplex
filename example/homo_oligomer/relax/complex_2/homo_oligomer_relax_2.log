@@ -1,0 +1,81 @@
+ Reading fix_atom_file.
+Check global input consistency...
+Done.
+- Energy parameter is set to Cassiopeia.
+- Finished with read_parameters.
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph.in
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph_nt.in
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph_ct.in
+- Finished with read_topology_geo.
+  Reading topology file: /home/huhlim/Galaxy/data/topology_eng_charmm22ph.in
+  Num_ref_res =    78
+- Finished with read_topology_eng.
+- Rotamer setup
+  Reading rotamer library file  /home/huhlim/Galaxy/data/bbdep02.May.sortlib
+  Total number of rotamers in rot lib file      466829
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+  Reading infile_chi_def file  /home/huhlim/Galaxy/data/def_chi.in
+  Random seed =    1820366
+Reading generate_model_input
+============================================================
+------------------------------------------------------------
+  Reading sequence from pdb file: homo_oligomer_relax_2_init.pdb
+  Reading pdb file: homo_oligomer_relax_2_init.pdb
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+- Fix type "none" activated: All atoms are free to move.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+- Energy: MM energy activated.
+- Energy: Solvation energy activated.
+Setting symmetry with   3 symm_units.
+- Energy: Rotamer score activated.
+- Energy: Ramachandran score activated.
+  Ramachandran score mode is set to "neighbor-dependent".
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+- Energy: Rosetta H-bond energy activated.
+- Energy: dDFIRE energy activated.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+- Energy: Restraint energy activated.
+ 16807 Restraints found from {rsr_file}.
+ 16807 restraints are set to Regular type with maximum 100 parameters.
+     0 restraints are set to Long type with maximum 400 parameters.
+Setting symmetry with   3 symm_units.
+Schedule is set to PERTMD default.
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+Setting symmetry with   3 symm_units.
+------------------------------------------------------------
+Replacing perturbing sidechains to initial-guess rotamers...
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+Setting symmetry with   3 symm_units.
+------------------------------------------------------------
+Total User Time =   5554.896 sec
+           0 dy  1 hr 32 min 34.896 sec
+------------------------------------------------------------

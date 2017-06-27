@@ -1,0 +1,16 @@
+data_directory        /home/huhlim/Galaxy/data
+top_type              polarh
+print_level           30
+energy_print_level    30
+read_multiple_models  yes
+weight_type           Cassiopeia
+sch_type              default
+gen_method            pertMD
+rsr_weight            5.0
+n_conf_gen            16
+rsr_pdb               homo_oligomer_relax_1_init.pdb
+rsr_file              homo_oligomer_relax_1.rsr
+infile_pdb            homo_oligomer_relax_1_init.pdb
+outfile_prefix        homo_oligomer_relax_1
+fix_atom_file         homo_oligomer_relax_1.fix
+energy_on_full        yes

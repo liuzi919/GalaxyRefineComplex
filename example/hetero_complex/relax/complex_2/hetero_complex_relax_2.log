@@ -1,0 +1,50 @@
+ Reading fix_atom_file.
+Check global input consistency...
+Done.
+- Energy parameter is set to Cassiopeia.
+- Finished with read_parameters.
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph.in
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph_nt.in
+  Reading topology file: /home/huhlim/Galaxy/data/topology_charmm22ph_ct.in
+- Finished with read_topology_geo.
+  Reading topology file: /home/huhlim/Galaxy/data/topology_eng_charmm22ph.in
+  Num_ref_res =    78
+- Finished with read_topology_eng.
+- Rotamer setup
+  Reading rotamer library file  /home/huhlim/Galaxy/data/bbdep02.May.sortlib
+  Total number of rotamers in rot lib file      466829
+  Reading infile_chi_def file  /home/huhlim/Galaxy/data/def_chi.in
+  Random seed =    1766923
+Reading generate_model_input
+============================================================
+------------------------------------------------------------
+  Reading sequence from pdb file: ../../init/hetero_complex_init.pdb
+    There seems to be break in chain.  473 B CYS   474 B GLY  C-N bond length is     2.319
+  Reading pdb file: ../../init/hetero_complex_init.pdb
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+- Fix type "none" activated: All atoms are free to move.
+- Energy: MM energy activated.
+- Energy: Solvation energy activated.
+- Energy: Rotamer score activated.
+- Energy: Ramachandran score activated.
+  Ramachandran score mode is set to "neighbor-dependent".
+- Energy: Rosetta H-bond energy activated.
+- Energy: dDFIRE energy activated.
+- Energy: Restraint energy activated.
+ 16115 Restraints found from {rsr_file}.
+ 16115 restraints are set to Regular type with maximum 100 parameters.
+     0 restraints are set to Long type with maximum 400 parameters.
+Schedule is set to PERTMD default.
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+------------------------------------------------------------
+Replacing perturbing sidechains to initial-guess rotamers...
+------------------------------------------------------------
+Total User Time =   4509.525 sec
+           0 dy  1 hr 15 min  9.525 sec
+------------------------------------------------------------

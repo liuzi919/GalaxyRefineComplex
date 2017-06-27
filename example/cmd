@@ -1,4 +1,0 @@
-#!/bin/sh
-
-#export GALAXY_HOME=PATH_TO_THE_GALAXYREFINECOMPLEX
-../bin/GalaxyRefineComplex -t 2ayo -p 2ayo_test.pdb
