@@ -31,7 +31,15 @@ The GalaxyRefineComplex distribution version supports only **Linux 64-bit** OS a
  * export GALAXY_HOME=$GALAXY_HOME  
     (*example*: export GALAXY_HOME=/applic/GalaxyRefineComplex)
 
-6. Set MPI environment (optional)
+6. Find a proper GalaxyRefineComplex executable
+ * We supply two different GalaxyRefineComplex executables having compiled on different environments
+    * CentOS 6.6: bin/GalaxyRefineComplex.centos66
+    * Ubuntu 16.04 LTS: bin/GalaxyRefineComplex.ubuntu1604
+ * We have compiled Python scripts using PyInstaller, and it uses built-in Linux C libraries. Since, each computing
+   environments may have different C libraries, so you need to find a working version with your environment. If both of
+   them are not working, then please ask us with your computing environment.
+
+7. Set MPI environment (optional)
  * GalaxyRefineComplex supports MPICH, so if you have installed MPICH, you can run it in parallel.
  * GalaxyRefineComplex has been tested with MPICH hydra (http://www.mpich.org/static/downloads/3.2/hydra-3.2.tar.gz).
  * You can use parallel version of GalaxyRefineComplex by setting EXEC_MPI environment
